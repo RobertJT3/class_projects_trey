@@ -1,0 +1,344 @@
+/* Global Styles */
+
+@import url(https://db.onlinewebfonts.com/c/8bf439e5d94b1d64da2c8d58a5004288?family=Parchment+MF+V1);
+
+body {
+    background-image: url(../images/ocean.jpg);
+    color: #735702;
+}
+
+#container {
+    border: 4px solid #735702;
+    background-color: #222601;
+    width: 75%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px #592B02 inset, 10px 10px 8px #401201 inset, 15px 15px 8px #260101 inset, 5px 5px 8px #592B02, 10px 10px 8px #401201, 15px 15px 8px #260101;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 8px #592B02, 6px 6px 8px #401201, 9px 9px 8px #260101;
+}
+
+hr {
+    border: 4px ridge #DCEEF2;
+    border-radius: 5px;
+}
+
+a {
+    color: #735702;
+}
+a:hover {
+    color: green;
+}
+
+#no_wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+aside li a {
+    background-color: #592B02;
+    border: 3px solid #735702;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 30px;
+    white-space: nowrap;
+    margin-left: -50px;
+}
+
+aside li a:hover{
+    background-color: #401201;
+}
+
+.glow {
+    text-shadow: 2px 2px 8px #F22E3E;
+    color: black;
+    font-family: nosifer, sans-serif;
+    font-size: 28px;
+}
+
+p{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "Parchment MF V1";
+    text-shadow: 3px 3px 5px #260101;
+    padding: 10px;
+}
+
+footer {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: "Parchment MF V1";
+    text-shadow: 3px 3px 5px #260101;
+    padding: 10px;
+}
+
+
+/* Mobile Styles */
+
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #592B02;
+    margin: 10px;
+    height: 45px;
+    line-height: 55px;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: "Parchment MF V1";
+    text-shadow: 3px 3px 5px #260101;
+    border: 3px solid #735702;
+    border-radius: 30px;
+    box-shadow: 3px 3px 6px #592B02 inset, 6px 6px 6px #401201 inset, 9px 9px 6px #260101 inset, 3px 3px 6px #592B02, 6px 6px 6px #222601, 9px 9px 6px #401201;
+}
+
+nav li a:hover {
+    background-color: #401201;
+}
+
+aside ul li {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "Parchment MF V1";
+    text-shadow: 3px 3px 5px #260101;
+}
+
+aside li a {
+    box-shadow: 3px 3px 6px #592B02 inset, 6px 6px 6px #401201 inset, 9px 9px 6px #260101 inset;
+}
+
+main {
+    padding: 15px;
+    margin: 0px;
+}
+
+.main_content {
+    padding: 15px;
+}
+
+.col {
+    margin: 10px 0;
+}
+
+.col img {
+    border-radius: 25px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+}
+
+.box {
+    border: 4px solid #592B02;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: 3px 3px 6px #592B02, 6px 6px 6px #222601, 9px 9px 6px #401201;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: "Parchment MF V1";
+    font-weight: bolder;
+    font-size: 55px;
+    color: #735702;
+    text-shadow: 5px 5px 8px #260101;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Parchment MF V1";
+    font-weight: bolder;
+    font-size: 40px;
+    color: #735702;
+    text-shadow: 5px 5px 8px #260101;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Parchment MF V1";
+    font-weight: bolder;
+    font-size: 30px;
+    color: #735702;
+    text-shadow: 5px 5px 8px #260101;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links aside li {
+    display: block;
+}
+
+.links a {
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    
+
+    nav {
+        padding: 15px 0;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+    }
+
+    .col img {
+        width: 75%;
+    }
+
+    .box {
+    border: 4px solid #592B02;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 5px;
+    box-shadow: 3px 3px 6px #592B02, 6px 6px 6px #222601, 9px 9px 6px #401201;
+    }
+    
+   
+
+    .links ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .links aside li {
+        display: block;
+    }
+
+    .links a {
+        display: block;
+        width: 150px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #text_pic {
+    display: flex;
+    }
+
+    #text_pic section {
+        width: 90%;
+    }
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px){
+    
+    .gallery {
+        display: flex;
+    }
+
+    .col {
+        border: 4px solid #735702;
+        margin: 15px;
+        padding: 25px;
+        border-radius: 25px;
+        box-shadow: 3px 3px 6px #592B02 inset, 6px 6px 6px #401201 inset, 9px 9px 6px #260101 inset, 3px 3px 6px #592B02, 6px 6px 6px #222601, 9px 9px 6px #401201;
+    }
+
+    .col img {
+        width: 75%;
+        height: auto;
+    }
+
+    .col h3 {
+        padding: 10px;
+        text-align: center;
+        color: #735702;
+    }
+
+    .col p {
+        padding: 10px;
+    }
+
+    
+
+    .box {
+    border: 4px solid #592B02;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 6px #592B02, 6px 6px 6px #222601, 9px 9px 6px #401201;
+    }
+    .multi_col {
+    display: flex;
+    }
+
+    section {
+        width: 60%;
+        padding-top: 20px;
+    }
+
+    aside {
+        width: 40%;
+    }
+
+    .links ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .links aside li {
+        display: block;
+    }
+
+    .links a {
+        display: block;
+        width: 180px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reduce {
+        height: 750px;
+        width: 525px;
+        margin-bottom: 30px;
+    }
+}
+

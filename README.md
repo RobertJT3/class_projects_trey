@@ -6,4 +6,5 @@ Chattanooga State class projects for CITC-1300-N06
     <li><a href="html5_css/index.html" target="_blank">HTML5_CSS_Bioshock</a></li>
     <li><a href="avd_css_bioshock/index.html" target="_blank">avd_css_Bioshock</a></li>
     <li><a href="resp_bioshock/index.html" target="_blank">resp_Bioshock</a></li>
+    <li><a href="the_finale/index.html" target="_blank">the_finale</a></li>
 </ul>
