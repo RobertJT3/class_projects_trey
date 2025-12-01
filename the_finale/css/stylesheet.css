@@ -3,7 +3,7 @@
 @import url(https://db.onlinewebfonts.com/c/8bf439e5d94b1d64da2c8d58a5004288?family=Parchment+MF+V1);
 
 body {
-    background-image: url(../images/ocean.jpg);
+    background-image: url(../images/please_sb.jpg);
     color: #735702;
 }
 
@@ -304,6 +304,7 @@ h3 {
     margin: 20px;
     padding: 10px;
     box-shadow: 3px 3px 6px #592B02, 6px 6px 6px #222601, 9px 9px 6px #401201;
+
     }
     .multi_col {
     display: flex;
@@ -339,6 +340,11 @@ h3 {
         height: 750px;
         width: 525px;
         margin-bottom: 30px;
+    }
+
+    .reduce_more {
+        height: 200px;
+        width: 475px;
     }
 }
 
